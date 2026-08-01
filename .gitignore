@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints (large binary files)
+checkpoint/*.pth
+checkpoint/*.pt
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Data files (large - optional: remove these lines if you WANT to upload data)
+# data1.txt
+# data2.txt
